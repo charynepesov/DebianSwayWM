@@ -83,14 +83,14 @@ $	libreoffice-gtk3
 ```
 Add environment variables in order to apps to work on wayland.
 ```bash
-$echo "GDK_BACKEND=wayland		#for GTK apps \n
-$CLUTTER_BACKEND=wayland		#for clutter apps \n
-$QT_QPA_PLATFORM=wayland;xcb	#for QT apps \n
-$SDL_VIDEODRIVER=wayland		#for SDL2 apps \n
-$MOZ_ENABLE_WAYLAND=1			#for Firefox \n
-$SAL_USE_VCLPLUGIN=gtk3			#for libreoffice \n
-$_JAVA_AWT_WM_NONREPARENTING=1	#for JAVA apps \n
-$ELM_DISPLAY=wl					#for EFL apps" >> .profile
+$ echo "GDK_BACKEND=wayland		#for GTK apps \n
+$ CLUTTER_BACKEND=wayland		#for clutter apps \n
+$ QT_QPA_PLATFORM=wayland;xcb	#for QT apps \n
+$ SDL_VIDEODRIVER=wayland		#for SDL2 apps \n
+$ MOZ_ENABLE_WAYLAND=1			#for Firefox \n
+$ SAL_USE_VCLPLUGIN=gtk3		#for libreoffice \n
+$ _JAVA_AWT_WM_NONREPARENTING=1	#for JAVA apps \n
+$ ELM_DISPLAY=wl				#for EFL apps" >> .profile
 ```
 For Chromium run program with
 ```
