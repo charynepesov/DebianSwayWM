@@ -1,4 +1,4 @@
-# dotfiles
+# My SwayWM installation on Debian testing
 #### Installing Debian Testing ans SwayWM
 > There is great video about [installing debian with btrfs file structure](https://youtu.be/_i_InuWyfQE)
 The essential commands on video. In order to enter to busybox Ctrl+Alt+F2
